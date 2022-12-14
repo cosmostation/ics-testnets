@@ -101,7 +101,8 @@ If you would like to provide the jury with more information about your pariticip
 
 ## GoC Task details
 
-### ICS nodes On-borading Process
+### ICS nodes Onboarding Process
+
   1. provider 체인 셋업 후 밸리데이터 키(priv_validator_key.json) 백업
   2. 현재 온체인에 등록된 컨슈머 체인 셋업 
   3. consumer 체인의 밸리데이터 키(priv_validator_key.json) 삭제
@@ -109,7 +110,7 @@ If you would like to provide the jury with more information about your pariticip
   **(즉, provider & consumer chain은 동일한 밸리데이터 키를 사용해야 함)**
 
 
-### ICS Consumer Chain Proposal On-borading Process
+### [ICS Consumer Chain Proposal Onboarding Process](./docs/Consumer-Chain-Start-Process.md)
   1. 프로바이더 체인에 제네시스와 바이너리 해시값과 spwan time를 적은 json 파일을 온체인에 제출 
   ```
   $ gaiad tx gov submit-proposal consumer-addition <proposal JSON file> --from <validator-keyname>
